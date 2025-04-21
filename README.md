@@ -1,1 +1,1 @@
-sample reusable button
+simple reusable button
