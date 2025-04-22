@@ -10,7 +10,7 @@ describe('Button Component', () => {
     expect(button).toBeInTheDocument();
   });
 
-  it('calls onClick handler when clicked', () => {
+  it('onClick handler clicked', () => {
     const handleClick = vi.fn();
     render(<Button onClick={handleClick}>Click me</Button>);
     const button = screen.getByText('Click me');
