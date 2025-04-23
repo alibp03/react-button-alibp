@@ -14,12 +14,12 @@ export default {
       options: ['small', 'medium', 'large'],
     },
     variant: {
-      description: 'Defines the visual style of the button',
+      description: 'Defines variant,
       control: { type: 'select' },
       options: ['primary', 'secondary', 'back'],
     },
     children: {
-      description: 'Text or element inside the button',
+      description: 'Text inside the button',
       control: 'text',
     },
   },
